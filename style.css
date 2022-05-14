@@ -166,9 +166,16 @@ ul{
     color: #ffffff;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .topfooter{
     background-color: #1E2232;
-    height: 300px;
+    height: 380px;
+    order: -1;
 }
 
 .topfooterinside{
@@ -293,3 +300,28 @@ ul{
     padding: 5px;
 }
 
+footer:before{
+        content: "";
+        border: 1px solid #d3d3d3;
+        align-self: stretch;
+}
+
+.liner{
+    margin: 30px 0;
+    color: rgb(77, 77, 77);
+    width: 73%;
+    margin-left: 270px;
+}
+
+.rights{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 270px;
+}
+.heart{
+    font-size: 32px;
+    color:  #eb5b3c;;
+    margin: 0 4px;
+}
