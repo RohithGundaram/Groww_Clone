@@ -170,20 +170,20 @@ ul{
 footer{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    
 }
 
 .topfooter{
     background-color: #1E2232;
-    height: 380px;
+    height: 417px;
     order: -1;
 }
 
 .topfooterinside{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 40px;
-    width:73%;
+    width:88%;
     margin:auto;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -198,12 +198,12 @@ footer{
 }
 
 .social .fa {
-    padding: 6px;
-    font-size: 31px;
-    width: 34px;
+    padding: 10px;
+    font-size: 18px;
+   
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 5px 5px;
     border-radius: 50%;
   }
   
@@ -252,6 +252,7 @@ footer{
 
 .address ul li{
     font-size: 17px;
+    font-weight: 500;
 }
 
 .address ul a{
@@ -276,23 +277,28 @@ footer{
 }
 
 .products{
-    font-size: 25px;
-    font-weight: bolder;
+    font-size: 1.125rem;
+    
+    line-height: 160%;
+    font-weight: 515;
     padding-bottom: 20px;
 }
 
 .GROWW{
-    font-size: 25px;
-    font-weight: bolder;
+    font-size: 1.125rem;
+    
+    line-height: 160%;
+    font-weight: 515;
     padding-bottom: 20px;
 
 }
 
 .quicklinks{
-    font-size: 25px;
-    font-weight: bolder;
+    font-size: 1.125rem;
+    
+    line-height: 160%;
+    font-weight: 515;
     padding-bottom: 20px;
-    padding-right: 15px;
 
 }
 
@@ -306,26 +312,25 @@ footer{
     padding: 5px;
 }
 
-footer:before{
-        content: "";
-        border: 1px solid #d3d3d3;
-        align-self: stretch;
-}
+
 
 .liner{
-    margin: 30px 0;
-    color: rgb(77, 77, 77);
-    width: 73%;
-    margin-left: 270px;
+    
+    width: 80%;
+    margin: auto;
+    padding-top: 35px;
 }
 
 .rights{
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bolder;
-    margin-left: 270px;
+    
 }
+
+
+
 .heart{
     font-size: 32px;
     color:  #eb5b3c;;
@@ -333,6 +338,82 @@ footer:before{
 }
 
 .topfooterinside li{
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 501;
+    cursor: pointer;
+}
+
+.topfooterinside_1{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.topfooterinside_1 img{
+    margin-right: 45px;
+    cursor: pointer;
+}
+
+.images_1{
+    padding-left: 21%;
+}
+
+.bottomfooter{
+    padding-right: 5%;
+}
+
+.col_1{
+    padding-right: -3%;
+}
+
+.bottomfooter{
+    background-color: #191c27;
+    color: white;
+    width: 80%;
+    margin: auto;
+    font-family: roboto;
+    font-weight: 501;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.bf1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.bfh{
+    background-color: #191c27;
+}
+
+.uc{
+    text-transform: uppercase;
+}
+
+.bottomfooter span{
+    color:#00d09c;
+    cursor: pointer;
+}
+
+.bf2{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+.bf2 a{
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 12px;
+    color: #7c7e8c;
+    cursor: pointer;
+}
+
+.bf2 a:hover{
+    color: white;
+}
+.bf2 span{
+    color: white;
 }
