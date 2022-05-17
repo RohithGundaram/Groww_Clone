@@ -1,0 +1,32 @@
+.flex{
+    display: flex;
+}
+
+.fw{
+    font-weight: 500;
+    color: #44475b;
+}
+
+.mb{
+    margin-bottom: 12px;
+    color: #44475b;
+}
+
+.mb1{
+    margin-bottom: 24px;
+    color: #44475b;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gr{
+    color:#00d09c;
+}
+
+.wid{
+    width: 36px;
+}
