@@ -332,10 +332,8 @@ footer{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: bolder;  
 }
-
-
 
 .heart{
     font-size: 32px;
@@ -351,7 +349,7 @@ footer{
 
 .topfooterinside_1{
     display: flex;
-    margin-left: 13.5%;
+    margin-left: 10%;
     margin-top: 25px;
     align-items: center;
 }
@@ -365,6 +363,10 @@ footer{
     padding-left: 21%;
 }
 
+.bottomfooter{
+    padding-right: 5%;
+}
+
 .col_1{
     padding-right: -3%;
 }
@@ -372,11 +374,11 @@ footer{
 .bottomfooter{
     background-color: #191c27;
     color: white;
-    width: 73%;
+    width: 80%;
     margin: auto;
-    font-family: "Roboto","Ubuntu";
+    font-family: "Roboto";
     font-weight: 501;
-    font-size: 20px;
+    font-size: 14px;
     text-align: justify;
     line-height: 1.5;
 }
@@ -388,8 +390,6 @@ footer{
 
 .bfh{
     background-color: #191c27;
-    height: 60vh;
-
 }
 
 .uc{
@@ -405,13 +405,12 @@ footer{
     display: flex;
     margin-top: 25px;
     margin-bottom: 25px;
-    font-size: 30px;
     
 }
 .bf2 a{
     margin-right: 8px;
     margin-left: 8px;
-    font-size: 19px;
+    font-size: 12px;
     color: #7c7e8c;
     cursor: pointer;
 }
