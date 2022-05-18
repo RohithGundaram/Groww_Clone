@@ -197,7 +197,7 @@ footer{
     justify-content: space-around;
     padding-top: 40px;
     width:88%;
-    margin:auto;
+    margin-left:70px;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -366,10 +366,6 @@ footer{
     padding-left: 21%;
 }
 
-.bottomfooter{
-    padding-right: 5%;
-}
-
 .col_1{
     padding-right: -3%;
 }
@@ -378,7 +374,8 @@ footer{
     background-color: #191c27;
     color: white;
     width: 80%;
-    margin: auto;
+    margin-left: 200px;
+    padding-right: 5%;
     font-family: "Roboto";
     font-weight: 501;
     font-size: 14px;
