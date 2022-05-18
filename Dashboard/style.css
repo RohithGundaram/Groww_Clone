@@ -167,7 +167,7 @@ link{
 
  .dashboard{
     font-family: "Roboto";
-    width: 50%;
+    width: 55%;
     margin-left: 200px;
  }
 
@@ -495,7 +495,7 @@ footer{
 
 .sec1{
     justify-content: space-between;
-    width: 86%;
+    width: 95%;
     margin-bottom: 14px;
 }
 
@@ -509,8 +509,10 @@ footer{
 
 .sec2{
     justify-content: space-between;
-    width: 55%;
+    width: 60%;
+    margin-left: 5px;
     margin-bottom: 50px;
+
 }
 
 .crow-21, .crow-22, .crow-23, .crow-24{
@@ -519,9 +521,9 @@ footer{
 
 .leftdashboard{
     width: 26%;
-    justify-content: center;
-    margin-left: 130px;
+    margin-left: 90px;
     padding: auto;
+    flex-direction: column;
     /* border: 2px solid black; */
 }
 
@@ -529,6 +531,7 @@ footer{
     height: 500px;
     width: 95%;
     margin-top: 60px;
+    padding: 10px 30px;
     flex-direction: column;
 }
 
@@ -539,6 +542,90 @@ footer{
 
 .leftdashboard1 img{
     margin: 1px;
+}
+
+.l4{
+
+    flex-direction: column;
+}
+
+.leftdashboard2{
+    flex-direction: column;
+    width: 95%;
+    margin-top: 70px;
+    height: 600px;
+    padding: 40px 30px;
+    border-radius: 5px;
+}
+
+.expand img{
+    width: 30px;
+    height: 30px;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.l1{
+    margin-bottom: 50px; 
+}
+
+.returns{
+    font-size: 30px;
+    color: #00d09c;
+    font-weight: 500;
+    margin: 15px;
+}
+.value{
+    font-size: 30px;
+    color: rgb(85, 84, 84);
+    font-weight: 500;
+    margin: 15px;
+}
+
+.l3{
+    color: grey;
+    margin-bottom: 20px;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.l41{
+    flex-direction: column;
+    padding: 25px 0px;
+    border-bottom: 2px solid rgb(225, 222, 222);
+}
+
+.l41-1{
+    margin: 5px;
+    
+}
+
+.l41-10{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(53, 52, 52);
+}
+
+.l41-11{
+    color: #00d09c;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.shares{
+    color: rgb(78, 53, 135);
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.l41-2{
+    font-weight: 400;
+    font-size: 18px;
 }
 
 
