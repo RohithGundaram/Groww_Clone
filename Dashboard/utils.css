@@ -65,3 +65,17 @@
     -webkit-box-shadow: 0 0 10px rgba(160, 160, 160, 0.6);
     -o-box-shadow: 0 0 10px rgba(160, 160, 160, 0.6);
 }
+
+.rec:hover img{
+    width: 55.5px;
+    height: 55.5px;
+    border-radius: 5px;
+}
+
+.rec:hover .text-1{
+    font-size: 25.5px;
+    margin-left: 16px;
+    font-weight: 500;
+    color: rgb(67, 67, 67);
+    letter-spacing: 0px;
+}

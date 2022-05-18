@@ -167,7 +167,8 @@ link{
 
  .dashboard{
     font-family: "Roboto";
-    width: 39%;
+    width: 50%;
+    margin-left: 200px;
  }
 
   .topleft img{
@@ -427,7 +428,7 @@ footer{
 .d1{
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    width: 1600px;
 }
 
 .hrow-1{
@@ -436,12 +437,12 @@ footer{
 }
 
 .box{
-    box-shadow: 3px 2px 2px 3px rgb(238, 236, 236);
+    
     padding: 26px;
     margin: 20px;
     border-radius: 8px;
     justify-content: space-between;
-    width: 50%;
+    width: 70%;
 }
 
 .dh{
@@ -519,7 +520,7 @@ footer{
 .leftdashboard{
     width: 26%;
     justify-content: center;
-    margin-left: 180px;
+    margin-left: 130px;
     padding: auto;
     /* border: 2px solid black; */
 }
@@ -529,7 +530,6 @@ footer{
     width: 95%;
     margin-top: 60px;
     flex-direction: column;
-    
 }
 
 .ld1-1, .ld1-2, .ld1-3{
@@ -538,9 +538,7 @@ footer{
 }
 
 .leftdashboard1 img{
-    margin: 8px;
+    margin: 1px;
 }
 
-.main{
-    justify-content: center;
-}
+
