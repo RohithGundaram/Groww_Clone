@@ -17,6 +17,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+   
+    
   </head>
   <body>
     <nav class="nav-bar">
@@ -41,7 +43,7 @@
           />
         </div>
         <div class="button">
-          <button class="login">Login/Register</button>
+          <button id="loginn" class="login">Login/Register</button>
         </div>
       </div>
     </nav>
@@ -447,5 +449,11 @@
         </div>
       </div>
     </section> -->
+
+    <script type="text/javascript">
+        document.getElementById("loginn").onclick = function () {
+            location.href = "Dashboard_index.html";
+        };
+    </script>
   </body>
 </html>
