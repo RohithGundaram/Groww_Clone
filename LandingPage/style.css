@@ -13,6 +13,14 @@
     width: 90%;
     margin: 15px auto;
     align-items: center;
+    height: 20%;
+    font-size: 20px;
+}
+
+.logo_groww{
+    margin-left: 30% ;
+    width: 67%;
+    height: 100%;
 }
 .top-right{
     display: flex;
@@ -38,16 +46,22 @@
     background-color: white;
     border-style: none;
     color: grey;
-    
+    font-size: 20px;
 }
+
+.fa-search{
+    font-size: 25px;
+}
+
 .search input{
-    /* background-color: white; */
-    width: inherit;
-    padding: 5px;
-    border-style: none;
-    border-color: white;
-    outline: none;
-    caret-color: #00d09c;
+        /* background-color: white; */
+        width: inherit;
+        padding: 5px;
+        border-style: none;
+        border-color: white;
+        outline: none;
+        caret-color: #00d09c;
+        font-size: 23px;
 }
 .search{
     margin-top:10px;
