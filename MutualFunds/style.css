@@ -1,0 +1,420 @@
+
+*{
+  font-family: Roboto,system-ui;
+}
+
+.login_button{
+    padding: 10px;
+    width: 50px;
+    font-size: 20px;
+    background-color: rgb(0, 208, 156);
+    border-radius: 8px;
+    border-style: hidden;
+    color: rgb(255, 255, 255)    ;
+    cursor: pointer;
+    width: 200px;
+    position: relative;
+    right: 30px;
+}
+
+.login_button_eal{
+  padding: 10px;
+  width: 50px;
+  font-size: 20px;
+  background-color: rgb(0, 208, 156);
+  border-radius: 8px;
+  border-style: hidden;
+  color: rgb(255, 255, 255)    ;
+  cursor: pointer;
+  width: 200px;
+  position: relative;
+  right: 30px;
+  width: 260px;height: 50px;margin-top: 90px;
+}
+
+body{
+  padding-top: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+.topnav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  /* position: sticky; */
+  top:0;
+  background-color: white;
+  padding-bottom: 23px;
+  /* background-color: blue; */
+}
+
+.topnav .title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 39px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  margin-left: 10px;
+  color: #000000;
+  font-stretch: expanded;
+}
+.nav_1{
+  padding-right: 5px;
+}
+
+link{
+  display: none;
+}
+
+.nav_2{
+  padding-left: 5px;
+}
+.topnav img{
+  width: 62px;
+}
+
+.toplinks{
+  display: flex;
+  justify-content: space-between;
+}
+
+.toplinks a{
+  text-decoration: none;
+  color: black;
+  margin-left:16px ;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.toplinks a:hover{
+  color:rgb(23, 221, 155);
+}
+
+.topleft{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sb-example-1{
+  box-shadow: 0 0 3px 3px rgb(232, 229, 229);
+  border-radius: 5px;
+  width: 550px;
+}
+.sb-example-1 .search {
+  width: 100%;
+  position: relative;
+  display: flex;
+  height: 45px;
+  align-items: center;
+}
+.sb-example-1 .searchTerm {
+  width: 100%;
+  height: 100px;
+  border: 4px solid #ffffff;
+  border-right: none;
+  padding: 5px;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+  color: #000000;
+  height: 14px;
+  font-size: 20px;
+}
+.sb-example-1 .searchTerm:focus{
+  color: #000000;
+}
+.sb-example-1 .searchButton {
+  width: 50px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  text-align: center;
+  color: rgb(93, 93, 93);
+  border-radius: 5px 0 0 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+.sub_2{
+
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+  margin-left: 350px;
+  background-image: url("images\subpage_bg.png");
+  background-size: cover;
+  margin-top: 7%;
+}
+
+
+.invest_in_stocks{
+
+  direction: flex;
+  flex-direction: column;
+  margin-top: 30px;
+
+}
+
+
+
+.iis_para{
+  margin-left: 60px;
+  font-family: Roboto,system-ui;
+}
+
+.iis_para_2{
+  margin-left: 40px;
+}
+
+.start_investing_btn{
+  margin-left: 120px;
+  margin-top: 40px;
+}
+
+.pic_1{
+  width: 650px;
+
+}
+
+
+.iistocks_heading{
+
+display: inline-block;
+/* font-size: 60px; */
+/* color: #413F42; */
+font-family: Roboto,system-ui;
+font-size: 58px;
+color: var(--text130);
+letter-spacing: .3px;
+margin-left: 10px;
+
+
+}
+
+.iistocks_stock{
+  display: inline-block;
+  font-family: Roboto,system-ui;
+  font-size: 58px;
+  color: #00d09c; 
+  /* letter-spacing: .3px; */
+  margin-left: 10px;
+
+}
+
+.pic{
+  margin-left: 35%;
+}
+
+
+.sub_3{
+  display: flex;
+  flex-direction: row;
+}
+
+.sub_3_left{
+  color: rgb(68, 71, 91);
+  font-family: Roboto,system-ui;
+}
+
+.sub_3_middle{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 100px;
+}
+
+.sub_3_right{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 100px;
+}
+
+.sub_l_heading{
+  box-sizing: border-box;
+  color: rgb(68, 71, 91);
+  display: block;
+  font-weight: 500;
+  /* height: 164px; */
+  letter-spacing: 0.28px;
+  line-height: 44.8px;
+  /* width: 290px; */
+  width: 400px;
+  margin-left: 200px;
+  
+}
+
+.sub_3_m_heading{
+  color: rgb(68, 71, 91);
+}
+
+.sub_4{
+
+  display: flex;
+  flex-direction: column;
+  background-color: #e5faf5;
+  height: 400px;
+  margin-top: 200px;
+  margin-bottom: 400px;
+  
+}
+
+.sub_4_searchbycategories_main{
+  display: flex;
+  flex-direction: row;
+}
+.sub_4_buttons{
+  display: flex;
+  flex-direction: row;
+}
+
+.sub_5{
+  display: flex;
+  flex-direction: row;
+}
+
+.sub_5_r_cont_pic{
+  width: 26px;
+}
+
+.sub_5_picl{
+  margin-left: 15%;
+  border-radius: 20px;
+}
+
+.sub_5_l_pic{
+  border-radius: 30px;
+}
+
+.sub_5_r_head1{
+
+  color :rgb(68, 71, 91);
+display :block;
+font-family: Roboto, system-ui;
+font-size: 32px;
+font-weight :500;
+
+}
+
+.sub_5_r_cont1_head{
+  color :rgb(68, 71, 91);
+display :block;
+font-family: Roboto, system-ui;
+font-size: larger;
+font-weight :500;
+margin-left: 2%;
+}
+
+.sub_5_getstarted_btn{
+  display: inline-block;
+  position: relative;
+  left: 85%;
+  margin-top: 4%;
+}
+
+
+.sub_5_r{
+  display: flex;
+  flex-direction: column;
+  margin-left: 6%;
+
+}
+
+.sub_5_r_tick_pic{
+  width: 28px;
+}
+
+.sub_5_r_cont1_para{
+  color :rgb(124, 126, 140);
+display :block;
+font-family :Roboto, system-ui;
+font-size :16px;
+font-weight :400;
+height :56px;
+letter-spacing :0.3px;
+line-height :28px;
+}
+
+.sub_5_r_cont1{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.picwithcontent{
+  display: flex;
+  flex-direction: row;
+}
+
+.sub_5_r_cont2{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sub_5_r_cont3{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sub_6{
+  display: flex;
+  flex-direction: row;
+  margin-top: 7%;
+}
+
+.sub_6_l{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  justify-content: space-around;
+}
+
+.sub_6_l_cont1{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.sub_6_l_cont2{
+  display: flex;
+  flex-direction: row;
+}
+
+.sub_6_l_cont3{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.sub_6_l_cont4{
+  display: flex;
+  flex-direction: row;
+}
+
+.sub_6_r{
+  display: inline-block;
+  position: relative;
+  left: 25%;
+}
+
+.sub_6_stock_img{
+  width: 30px;
+}
+
+
+.sub_6_newsmarkst_btn{
+  display: inline-block;
+  position: relative;
+  left: 83%;
+  margin-top: 4%;
+}
