@@ -4,10 +4,18 @@
   font-family: Roboto,system-ui;
 }
 
+.flex{
+  display: flex;
+}
+
+.column{
+  flex-direction: column;
+}
+
 body{
   background-image: url(images/bg.png) ;
   background-repeat: no-repeat;
-  background-size: 100% 35%;
+  background-size: 100% 30%;
 }
 .login_button{
     padding: 20px 30px;
@@ -158,16 +166,6 @@ link{
   }
 
 
-.sub_2{
-
-  display: flex;
-  flex-direction: row;
-  height: 800px;
-  margin-left: 350px;
-  background-image: url("images\subpage_bg.png");
-  background-size: cover;
-  margin-top: 7%;
-}
 
 
 .invest_in_stocks{
@@ -182,7 +180,8 @@ link{
 
 .iis_para{
   margin-left: 60px;
-  font-family: Roboto,system-ui;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
 .iis_para_2{
@@ -194,11 +193,34 @@ link{
   margin-top: 40px;
 }
 
-.pic_1{
-  width: 650px;
-
+.super_sub{
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
+
+.sub_2{
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+  /* margin-left: 250px; */
+  background-image: url("images\subpage_bg.png");
+  background-size: cover;
+  margin-top: 100px;
+  /* width: 20%; */
+}
+
+.pic_1{
+  max-width: 40vw;
+}
+
+.stock_pic{
+  display: flex;
+  width: 50%;
+  margin-top: 100px;
+  justify-content: left;
+}
 
 .iistocks_heading{
 
@@ -232,6 +254,7 @@ margin-left: 10px;
 .sub_3{
   display: flex;
   flex-direction: row;
+  margin-top: 15%;
 }
 
 .sub_3_left{
@@ -270,6 +293,18 @@ margin-left: 10px;
 
 .sub_3_m_heading{
   color: rgb(68, 71, 91);
+}
+.thunder img{
+  height: 35px;
+  width: 35px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.rupee_search img{
+  width:35px ;
+  height: 35px;
+  margin-right: 20px;
+  border-radius: 50%;
 }
 
 .sub_4{
@@ -314,7 +349,7 @@ margin-left: 10px;
 
   color :rgb(68, 71, 91);
 display :block;
-font-family: Roboto, system-ui;
+font-family: 'Roboto', sans-serif;
 font-size: 32px;
 font-weight :500;
 
@@ -323,7 +358,7 @@ font-weight :500;
 .sub_5_r_cont1_head{
   color :rgb(68, 71, 91);
 display :block;
-font-family: Roboto, system-ui;
+font-family: 'Roboto', sans-serif;
 font-size: larger;
 font-weight :500;
 margin-left: 2%;
@@ -427,6 +462,9 @@ line-height :28px;
   width: 30px;
 }
 
+.sub_6_img_tag{
+  max-width: 35vw;
+}
 
 .sub_6_newsmarkst_btn{
   display: inline-block;
@@ -435,8 +473,3 @@ line-height :28px;
   margin-top: 4%;
 }
 
-.thunder img{
-  height: 35px;
-  width: 35px;
-  margin-right: 20px;
-}
