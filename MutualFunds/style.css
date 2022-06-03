@@ -244,6 +244,7 @@ margin-left: 10px;
   flex-direction: column;
   width: 500px;
   margin-left: 100px;
+  align-items: center;
 }
 
 .sub_3_right{
@@ -432,4 +433,10 @@ line-height :28px;
   position: relative;
   left: 83%;
   margin-top: 4%;
+}
+
+.thunder img{
+  height: 35px;
+  width: 35px;
+  margin-right: 20px;
 }
