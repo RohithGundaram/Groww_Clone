@@ -226,7 +226,7 @@ link{
 display: inline-block;
 /* font-size: 60px; */
 /* color: #413F42; */
-font-family: Roboto,system-ui;
+
 font-size: 58px;
 color: var(--text130);
 letter-spacing: .3px;
@@ -237,7 +237,7 @@ margin-left: 10px;
 
 .iistocks_stock{
   display: inline-block;
-  font-family: Roboto,system-ui;
+
   font-size: 58px;
   color: #00d09c; 
   /* letter-spacing: .3px; */
@@ -258,7 +258,7 @@ margin-left: 10px;
 
 .sub_3_left{
   color: rgb(68, 71, 91);
-  font-family: Roboto,system-ui;
+
 }
 
 .sub_3_middle{
@@ -313,7 +313,7 @@ margin-left: 10px;
   background-color: #e5faf5;
   height: 400px;
   margin-top: 200px;
-  margin-bottom: 400px;
+  margin-bottom: 107px;
   
 }
 
@@ -336,13 +336,17 @@ margin-left: 10px;
 }
 
 .sub_5_picl{
-  margin-left: 15%;
+  margin-left: 17%;
   border-radius: 20px;
+  margin-top: 67px;
+  background: #e5faf5;
+  height: 542px;
 }
 
 .sub_5_l_pic{
   border-radius: 30px;
   width: 600px;
+  margin-top: 80px;
 }
 
 .sub_5_r_head1{
@@ -359,7 +363,7 @@ font-weight :500;
   color :rgb(68, 71, 91);
 display :block;
 font-family: 'Roboto', sans-serif;
-font-size: larger;
+font-size: 25px;
 font-weight :500;
 margin-left: 2%;
 }
@@ -387,11 +391,15 @@ margin-left: 2%;
   color :rgb(124, 126, 140);
 display :block;
 font-family :Roboto, system-ui;
-font-size :16px;
+font-size: 18px;
 font-weight :400;
 height :56px;
 letter-spacing :0.3px;
 line-height :28px;
+width: 50%;
+margin-bottom: 47px;
+margin-left: 43px;
+margin-top: 12px;
 }
 
 .sub_5_r_cont1{
