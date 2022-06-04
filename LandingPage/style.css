@@ -574,6 +574,7 @@
 }
 
 
+
 footer{
     display: flex;
     flex-direction: column;
@@ -606,8 +607,7 @@ footer{
 
 .social .fa {
     padding: 10px;
-    font-size: 18px;
-   
+    font-size: 18px;   
     text-align: center;
     text-decoration: none;
     margin: 5px 5px;
@@ -700,8 +700,7 @@ footer{
 }
 
 .quicklinks{
-    font-size: 1.125rem;
-    
+    font-size: 1.125rem;    
     line-height: 160%;
     font-weight: 515;
     padding-bottom: 20px;
@@ -820,4 +819,9 @@ footer{
     display: flex;
     flex-direction: column;
     width: 1600px;
+}
+
+.productlist li a{
+    text-decoration : none;
+    color: white;
 }
