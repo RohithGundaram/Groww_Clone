@@ -69,6 +69,7 @@
     height: 450px;
     padding-left: 210px;
     padding-top: 180px;
+    margin-right: 50px;
 }
 
 .middle-right{
@@ -502,7 +503,10 @@
 }
 
 .card1:hover{
-    box-shadow: 3px 3px 3px 3px rgb(157, 153, 153);
+    box-shadow: 0 0 10px rgba(160, 160, 160, 0.6);
+    -moz-box-shadow: 0 0 10px rgba(160, 160, 160, 0.6);
+    -webkit-box-shadow: 0 0 10px rgba(160, 160, 160, 0.6);
+    -o-box-shadow: 0 0 10px rgba(160, 160, 160, 0.6);
 }
 
 .middle9{
@@ -679,4 +683,10 @@
 
 }
 
+.box-shadow{
+    box-shadow: 0 0 10px rgba(160, 160, 160, 0.6);
+    -moz-box-shadow: 0 0 10px rgba(160, 160, 160, 0.6);
+    -webkit-box-shadow: 0 0 10px rgba(160, 160, 160, 0.6);
+    -o-box-shadow: 0 0 10px rgba(160, 160, 160, 0.6);
+}
 
