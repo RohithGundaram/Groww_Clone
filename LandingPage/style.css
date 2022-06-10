@@ -80,6 +80,27 @@
     padding-top: 50px;
     height: 600px;
 }
+/* Animations */
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }    
+}
+.nav-bar .anim{
+    animation-delay: 0.5s;
+}
+.middle .middle-left{
+    animation-delay: 1s;
+}
+.middle .middle-right{
+    animation-delay: 2s;
+}
 
 .roww-1{
     display: flex;
