@@ -114,17 +114,17 @@ font-weight :500;
 
 .login_button_eal{
   padding: 10px;
-  width: 50px;
+
   font-size: 20px;
   background-color: rgb(0, 208, 156);
   border-radius: 8px;
   border-style: hidden;
   color: rgb(255, 255, 255)    ;
   cursor: pointer;
-  width: 200px;
   position: relative;
   right: 30px;
-  width: 260px;height: 50px;margin-top: 90px;
+  width: 260px;
+  height: 50px;
 }
 .topnav{
   display: flex;
@@ -236,7 +236,7 @@ margin-top: 7%;
 }
 
 .pic_1{
-  width: 650px;
+  width: 200%;
 
 }
 
@@ -269,10 +269,18 @@ margin-left: 10px;
   margin-left: 35%;
 }
 
+.box-shadow{
+  box-shadow: 0 0 10px rgba(160, 160, 160, 0.6);
+  -moz-box-shadow: 0 0 10px rgba(160, 160, 160, 0.6);
+  -webkit-box-shadow: 0 0 10px rgba(160, 160, 160, 0.6);
+  -o-box-shadow: 0 0 10px rgba(160, 160, 160, 0.6);
+}
 
 .sub_3{
   display: flex;
   flex-direction: row;
+  margin-left: 7%;
+  margin-top: 20%;
 }
 
 .sub_3_left{
@@ -316,9 +324,11 @@ margin-left: 10px;
   display: flex;
   flex-direction: column;
   background-color: #e5faf5;
-  height: 400px;
+  height: 450px;
   margin-top: 200px;
   margin-bottom: 400px;
+  justify-content: center;
+  align-items: center;
   
 }
 
@@ -326,21 +336,31 @@ margin-left: 10px;
   display: flex;
   flex-direction: row;
 }
+
+.sub_4_searchbycategories{
+  display: flex;
+  margin: 4px 10px;
+
+};
+
 .sub_4_buttons{
   background-color: #F9F9F9;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-left: 11px;
+
 }
 
 .sub_4_button_style{
-  background-color: #F9F9F9;
-  border-radius: 2px;
-  border-color: #F9F9F9;
+  background-color: #ffffff;
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 9px;
+  margin: 5px;
+  border: none;
   /* width: 2px; */
 }
-
 .sub_5{
   display: flex;
   flex-direction: row;
