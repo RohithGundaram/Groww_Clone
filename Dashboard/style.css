@@ -128,20 +128,20 @@ link{
   .topicons span{
       padding: 15px;
   }
-    .material-symbols-outlined{
+.material-symbols-outlined{
         font-size: 35px;
         font-weight: 200;
         color: grey;
     }
 
-    .topicons .material-symbols-outlined:hover{
+.topicons .material-symbols-outlined:hover{
         color:rgb(23, 221, 155);
       }
-  .circle{
+.circle{
       border-radius: 50%;
   }
 
-  .midnav{
+.midnav{
       display: flex;
       margin-top: 15px;
       width: 35%;
@@ -151,7 +151,7 @@ link{
       margin-bottom: 20px;
   }
 
-  .midnav a{
+.midnav a{
     text-decoration: none;
     color: #44475b;
     font-family: 'Roboto', sans-serif;
@@ -159,7 +159,7 @@ link{
     font-weight: 400;
   }
 
-  .midnav a:hover{
+.midnav a:hover{
     color:rgb(23, 221, 155);
     padding-bottom: 18px;
     border-bottom: 4px solid rgb(23, 221, 155); 
